@@ -1,0 +1,43 @@
+
+/* (*) is a univeral selector which has no specificty value */
+* {
+    color: purple;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color:blue;
+}
+
+p {
+    color:coral;
+}
+
+div {
+    color: black;
+    background-color: pink;
+    text-align: center;
+}
+
+a {
+    color:crimson;
+    font-weight:bolder;
+}
+
+.test-one {
+    text-align:left;
+    color:blue;
+}
+
+.test-two {
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:brown;
+    background-color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
