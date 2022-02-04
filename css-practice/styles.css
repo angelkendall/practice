@@ -20,6 +20,15 @@ p {
     color:green;
 }
 
+p.note{
+    font-weight: bolder;
+}
+
+p.white{
+    background-color: transparent; /* "none" bg-colour*/
+    color:white;
+}
+
 div{
     color: rgb(0, 133, 99);
 }
@@ -92,4 +101,69 @@ img {
     background-color: ghostwhite;
 }
 
+/* ********************************* */
+
+
+/* ******The following are page4 CSS tests****** */
+
+.red-box{
+    background-color: rgba(223, 41, 41, 0.842);
+    width:300px;
+    height:300px;
+    margin:30px;
+    padding:30px;
+    color:white;
+}
+
+.blue-box{
+    background-color: rgba(47, 47, 240, 0.897);
+    width:200px;
+    height:200px;
+    margin:20px;
+    padding:30px;
+    color:white;
+}
+
+.green-box{
+    background-color: rgba(80, 233, 80, 0.719);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;   
+}
+
+.green-box.block{
+    display: block;
+}
+
+.orange-box{
+    background-color: rgba(255, 166, 0, 0.719);
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border: .5px solid black;  
+    margin:2px; 
+}
+
+.orange-box.block{
+    display: block;
+}
+
+.orange-box.inline-block{
+    display: inline-block;
+}
+
+
+
+.first-span{
+    background-color: rgb(241, 149, 149);
+    color:rgba(47, 47, 240, 0.897);
+    font-size: 20px;
+}
+
+.second-span{
+    background-color: rgba(170, 86, 86, 0.527);
+    color:rgb(35, 35, 116);
+    font-size: 15px;
+}
 /* ********************************* */

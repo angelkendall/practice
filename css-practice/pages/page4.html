@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <h1>CSS PRACTICE - PAGE 4</h1>
+    <h3>Block and Inline</h3>
+    <p>This page is about <em>block</em> and <em>inline</em> elements</p>
+
+    <p><em>block</em> elements start on a new line, and will stack on top of 
+    each other by default.</p>
+    <p><em>inline</em> elements don't start on a new line, and appear beside the 
+    elements they're placed next to.</p>
+    <p class="note">Note: Generally don't want to put padding or margin on inline elements</p>
+
+    <p>Divs and spans are just boxes that can contain anything. Divs are 
+        block-level by default. Span is inline-level by default.</p>
+    
+    <p>The following are some tests:</p>
+
+    <div class="red-box">This box has a margin of 30px, and padding of 
+        50px
+        <p class="white">If two elements next to each other have a margin set,
+            and the two margins touch, the larger of the two remains and the smaller
+            margin disappears.
+        </p>
+        <p class="white">Here, the red boxes margin has taken over the blue's</p>
+        
+        <p class="white">This sentence is to test out the <span class="first-span">span element,
+            which is an inline element that</span> defaults to being inline.
+            This is useful to do things <span class="second-span">such as style a particular section</span> 
+            of text within a paragraph for example. 
+        </span></p>
+    
+    </div>
+
+
+    <div class="blue-box">This box has a margin of 20px, and padding of 
+        30px
+    </div>
+    <p>The first three green boxes are set to "display: inline-block",
+        and so appear in a line. The last green box has the default "display: block",
+        and so appears on a new line.
+    </p>
+    <div class="green-box"></div>
+    <div class="green-box"></div>
+    <div class="green-box"></div>
+    <div class="green-box block"></div>
+    <p> The first three boxes are set to "inline", which shouldn't be done for divs - only spans.
+        The second two are set to "inline-block", and are next to each other on the same line as the first three,
+        The last two are set to "block", and are on their own lines - not next to each other.
+    </p>
+
+    <div class="orange-box"></div>
+    <div class="orange-box"></div>
+    <div class="orange-box"></div>
+    <div class="orange-box inline-block"></div>
+    <div class="orange-box inline-block"></div>
+    <div class="orange-box block"></div>
+    <div class="orange-box block"></div>
+
+    <p><a href="../index.html">Home</a></p>
+    <p><a href="page2.html">Page 2 - Basics </a></p>    
+    <p><a href="page3.html">Page 3 - Box Model</a></p>
+    <p><a href="page4.html">Page 4 - Block and Inline</a></p>
+</body>
+
+</html>
