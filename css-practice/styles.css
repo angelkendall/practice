@@ -4,6 +4,7 @@
     background-color: beige;
 }
 
+/* ******The following are site wide****** */
 /*Any h1 heading will be darkgreen*/
 h1 {
     color:darkgreen;
@@ -28,8 +29,9 @@ a {
     color:rgb(43, 43, 248);
     font-weight:bolder;
 }
+/* ********************************* */
 
-/*The following are page2 CSS tests:*/
+/* ******The following are page2 CSS tests****** */
 .test-one {
     background-color: indianred;
     text-align:left;
@@ -59,3 +61,35 @@ img {
     height: 200px;
     width: 200px;
 }
+/* ********************************* */
+
+/* ******The following are page3 CSS tests****** */
+.box-test{
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 5px;
+    background-color: burlywood;
+    color:blue;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.box-test-two{
+    border:5px solid crimson;
+    border-bottom-color: gold;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 15px;
+    margin: 5px;
+    background-color: ghostwhite;
+    color: black;
+    font-size: 20px;
+}
+
+.page3-paragraph{
+    color: black;
+    font-size: 22px;
+    background-color: ghostwhite;
+}
+
+/* ********************************* */
