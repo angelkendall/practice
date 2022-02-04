@@ -1,32 +1,39 @@
 
 /* (*) is a univeral selector which has no specificty value */
 * {
-    color: purple;
-    background-color: blanchedalmond;
+    background-color: beige;
 }
 
+/*Any h1 heading will be darkgreen*/
 h1 {
-    color:blue;
+    color:darkgreen;
 }
 
+/*Any heading using h3 will be green*/
+h3{
+    color:rgb(51, 83, 3);
+}
+
+/*All text within a paragraph will be green*/
 p {
-    color:coral;
+    color:green;
 }
 
-div {
-    color: black;
-    background-color: pink;
-    text-align: center;
+div{
+    color: rgb(0, 133, 99);
 }
 
+/*links will be blue and bold*/
 a {
-    color:crimson;
+    color:rgb(43, 43, 248);
     font-weight:bolder;
 }
 
+/*The following are page2 CSS tests:*/
 .test-one {
+    background-color: indianred;
     text-align:left;
-    color:blue;
+    color:white;
 }
 
 .test-two {
@@ -35,6 +42,17 @@ a {
     font-weight: bold;
     color:brown;
     background-color: white;
+}
+
+/*Makes the sentence in a specific paragraph red*/
+p.test-three{
+    color:red;
+}
+
+/*Makes the background gray and text pink*/
+.test-four{
+    background-color: gray;
+    color:hotpink;
 }
 
 img {
