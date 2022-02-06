@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <h1>CSS PRACTICE - PAGE 5</h1>
+    <h3>Flexbox - Intro and Glowing & Shrinking</h3>
+    <p>Flexbox is a way to manipulate elements in CSS</p>
+
+    <div class="flex-container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+    
+    <p>If another div is put into .flex-container, everything will "flex" to 
+        make it fit. Resizing the browser will also make the divs "flex" to fit.
+    </p>
+    <div class="flex-container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    
+    <p> A <em>flex container</em> is any element that has <em>display: flex</em> on it.
+    <br>A <em>flex item</em> is any item that lives directly inside a <em>flex container</em>
+    
+    <p>In the above boxes: the yellow is the flex container, and the blue
+        are the flex items</p>
+
+    <p>An element can be bother a container and an item</p>
+
+    <div class="flex-container">
+        <div class="one"></div>
+        <div class="two" style="display: flex;">
+            <div class="flex-test"></div>
+            <div class="flex-test"></div>
+            <div class="flex-test"></div>
+        </div>
+        <div class="three">
+            <div class="flex-test"></div>
+            <div class="flex-test"></div>
+        </div>
+    </div>
+    <p>In the above boxes, the second box is both an item and a container,
+        and so anything inside <strong>can</strong> be arranged with flexbox.
+        <br>The third box is just an item, and so anything inside
+        <strong>can't</strong> be arranged with flexbox.
+    </p>
+
+    <p>flex is shorthand for flex: flex-grow flex-shrink flex-basis
+        <br>When flex is defined with one value, it is applying to flex-grow
+    </p>
+
+    <p><strong>flex-grow</strong> expects a single number as it's value, which
+        is the item's "growth factor". 
+        <br>If "1" is used, that means every item will grow to the same amount
+        <br>If "2" is used on one div, it will grow 2x the size of the others (third boxes in examples above)
+    </p>
+    <p><strong>flex-shrink</strong> only ends up being applied if the size of 
+        all flex items is larger than their parent container. 
+        <br>The default is 1, so all items would shrink evenly. 
+        <br>Setting to 0 will mean the item <strong>won't</strong> shrink.
+        <br>Setting it higher than 1 will mean the item will shrink higher than normal
+    </p>
+
+    <p>If <strong>flex-grow</strong> or <strong>flex-shrink</strong> are specified,
+    the items won't necessarily respect any given values for <strong>wdith</strong>.
+    The default is to grow to fill the container, or shrink to fit it.
+    </p>
+ 
+    <p><strong>flex-basis</strong> is the initial size of a flex item, the default being
+    0% (but actually the default us auto). If <strong>auto</strong> is used, it tells the item to check for a declared <strong>width</strong>.</p>
+
+    <p><strong>Most commonly, flex: 1; is used to make divs grow evenly, flex-shrink: 0 will keep
+        certain divs from shrinking.</strong></p>
+
+        
+    <p><a href="../index.html">Home</a></p>
+    <p><a href="page2.html">Page 2 - Basics </a></p>    
+    <p><a href="page3.html">Page 3 - Box Model</a></p>
+    <p><a href="page4.html">Page 4 - Block and Inline</a></p>
+    <p><a href="page5.html">Page 5 - Flexbox</a></p>
+    <p><a href="page6.html">Page 6 - Flexbox cont.</a></p> 
+    <p><a href="page7.html">Page 7 - Flexbox cont.</a></p> 
+</body>
+
+</html>

@@ -12,12 +12,15 @@ h1 {
 
 /*Any heading using h3 will be green*/
 h3{
-    color:rgb(51, 83, 3);
+    color:rgb(64, 105, 3);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*All text within a paragraph will be green*/
 p {
-    color:green;
+    color:rgb(1, 56, 1);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p.note{
@@ -28,6 +31,12 @@ p.white{
     background-color: transparent; /* "none" bg-colour*/
     color:white;
 }
+
+li {
+    color:rgb(1, 56, 1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 div{
     color: rgb(0, 133, 99);
@@ -166,4 +175,81 @@ img {
     color:rgb(35, 35, 116);
     font-size: 15px;
 }
+/* ********************************* */
+
+/* ******The following are page5 CSS tests****** */
+
+.flex-container{
+    display:flex;
+    padding: 4px;
+    background-color: rgb(231, 229, 94);
+    border:4px solid rgba(177, 180, 4, 0.719);
+}
+
+.flex-container div{
+    background: rgb(142, 241, 248);
+    border: 4px solid rgb(33, 65, 207);
+    height: 100px;
+    margin:4px;
+    flex: 1;
+}
+
+/* divs with class="three" will be double the size of the others */
+.flex-container .three{
+    flex: 2 1 0%;
+}
+
+div.flex-test{
+    background-color: red;
+    border:2px solid rgb(1, 56, 1);
+    height:50px;
+    margin:4px;
+    flex:1;
+}
+
+/* ********************************* */
+
+/* ******The following are page6 CSS tests****** */
+
+.flex-container-vertical{
+    display:flex;
+    flex-direction: column;
+    padding: 4px;
+    background-color: rgb(231, 229, 94);
+    border:4px solid rgba(177, 180, 4, 0.719);
+}
+
+.flex-container-vertical div{
+    background: rgb(142, 241, 248);
+    border: 4px solid rgb(33, 65, 207);
+    height: 50px;
+    margin:4px;
+    flex: 1 1 auto;
+}
+/* ********************************* */
+
+/* ******The following are page6 CSS tests****** */
+
+.flex-container-justified{
+    display:flex;
+    padding: 4px;
+    background-color: rgb(231, 229, 94);
+    border:4px solid rgba(177, 180, 4, 0.719);  
+    justify-content: center;     
+    align-items: center;
+    height:250px;
+    gap: 8px;
+}
+
+.flex-container-justified div{
+    background: rgb(142, 241, 248);
+    border: 4px solid rgb(33, 65, 207);
+    height: 80px;
+    margin: 8px;
+    width:80px;  
+    flex: 1 1 auto;
+}
+
+
+
 /* ********************************* */
