@@ -6,10 +6,6 @@ html,body{
     flex-direction: column;
 }
 
-
-.header-container{
-
-}
 .header,.footer{
     background-color: #1F2937;
     font-size: 18px;
@@ -39,6 +35,13 @@ html,body{
     color:#F9FAF8;
 }
 
+
+.placeholder-image{
+    width:500px;
+    height:250px;
+    background-color: gray;
+}
+
 .information-heading{
     font-size: 36px;
     color: #1F2937;
@@ -51,7 +54,13 @@ html,body{
     padding: 0px 150px 100px;
 }
 
-.quote-section{
+.information-placeholder{
+    width:80px;
+    height:80px;
+    border: 2px solid blue;
+}
+
+.quotes-section{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 18px;
@@ -60,7 +69,7 @@ html,body{
     padding: 0px 150px 100px;
 }
 
-.quote-text{
+.quotes-text{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
