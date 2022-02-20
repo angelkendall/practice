@@ -14,16 +14,32 @@ html,body{
 }
 .header{
    display:flex;
-   flex-direction: column;
-}
-.top{
-    display: flex;
-    justify-content: space-between;
+
+   border: 5px solid green;
 }
 
-.bottom{
+/**
+.navigation{
+    display:flex;
+    justify-content: space-between;
+
+    border: 5px solid red;
+}
+
+.hero{
     display: flex;
- 
+    flex-direction: column;
+    border: 5px solid blue;
+}
+**/
+.left{
+    border: 5px solid blue;
+}
+
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .hero-main-text{
     font-size: 48px;
@@ -77,10 +93,10 @@ html,body{
 }
 
 
-
-
 .call-to-action{
     background-color: #3882F6;
+    font-size: 18px;
+    color:#E5E7EB;
     padding: 0px 150px 100px;
 }
 
@@ -88,11 +104,11 @@ ul{
     list-style-type: none;    
     padding: 0;
     margin: 0;
+
+    display: flex;
+    gap: 10px;
 }
 
-li{
-
-}
 
 a{
     text-decoration: none;
