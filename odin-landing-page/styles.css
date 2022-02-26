@@ -2,6 +2,24 @@ html,body{
     min-height: 100%;
     padding: 0;
     margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*button doesnt look like its supposed to,
+needs to be centered properly - is the padding wrong?*/
+button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    width: 70px;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
 }
 
 .header{
@@ -9,6 +27,51 @@ html,body{
     font-size: 18px;
     color:#E5E7EB;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+/*This maybe should be h2*/
+.header-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    border: 5px solid green;
+}
+
+
+
+
+/*
+need to work out why header-left has so much space in between items
+need to work out size of image to = size of header left 
+need to line up navbar with header items */
+.header-container{
+    display:flex;
+    align-items: center;
+    max-height: 200px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+}
+
+.header-right{
+    display:flex;
+    max-height: 200px;
+    border: 5px solid blue;
+}
+
+
 
 .information{
     font-size: 18px;
@@ -31,5 +94,20 @@ html,body{
 .footer{
     background-color: #1F2937;
     font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display:flex;
+    gap:1em;
+}
+
+a{
+    text-decoration: none;
     color:#E5E7EB;
 }
