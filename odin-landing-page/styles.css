@@ -2,121 +2,34 @@ html,body{
     min-height: 100%;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
-.header,.footer{
+.header{
     background-color: #1F2937;
     font-size: 18px;
     color:#E5E7EB;
-
-}
-.header{
-   border: 5px solid green;
-   display: flex;
-   flex-direction: column;
 }
 
-.navbar{
-    border: 5px solid red;
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero-text-section{
-
-}
-
-.hero{
-    border: 5px solid blue;
-
-}
-
-.hero-main-text{
-    font-size: 48px;
-    font-weight: bolder;
-    color:#F9FAF8;
-
-    border: 5px solid pink;
-}
-.logo{
-    font-size: 24px;
-    color:#F9FAF8;
-}
-
-.placeholder-image{
-    width:500px;
-    height:250px;
-    background-color: gray;
-}
-
-.navbar > ul{
-    list-style-type: none;    
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 10px;    /* gap between the nav links*/ 
-}
-a{
-    text-decoration: none;
-}
-
-
-
-
-
-.information-heading{
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: bolder;
-}
-
-.information-section{
+.information{
     font-size: 18px;
     color:#1F2937;
-
 }
 
-.information-placeholder{
-    width:80px;
-    height:80px;
-    border: 2px solid blue;
-}
-
-
-
-
-
-.quotes-section{
+.quotes{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 18px;
     font-weight: bold;
 }
 
-.quotes-text{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    color: #1F2937;
-}
-
-
-
-
-
-.call-to-action-section{
-
-}
 .call-to-action{
     background-color: #3882F6;
     font-size: 18px;
     color:#E5E7EB;
-
 }
 
-
-
-
-
+.footer{
+    background-color: #1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+}
