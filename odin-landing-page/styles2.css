@@ -1,0 +1,228 @@
+html,body{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    background-color: #1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding-top: 18px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    /*flex: 1 1 auto;*/
+}
+
+.left-side{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 120px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 130px;
+}
+
+.hero{
+  /*  border: 5px solid blue;*/
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+/*This maybe should be h2*/
+.header-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+
+}
+
+/*logo*/
+h1{
+    font-size: 24px;
+    color:#F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*button doesnt look like its supposed to,
+needs to be centered properly - is the padding wrong?*/
+button{
+    background-color: #3882F6;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+    text-align: center;
+    width: 130px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #0966fc;
+    color:white;
+}
+
+.action-button{
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*should the information cards move when the screen is smaller*/
+.information{
+    font-size: 18px;
+    color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /*justify-content: center;
+    width:auto;
+    flex: 1 0 auto;*/ 
+}
+
+.information-container{
+    display: flex;
+    gap: 50px;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    gap: 10px;
+    text-align: center;
+
+
+}
+
+.infomation-image{
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.information-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+
+
+/*    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+
+
+
+
+
+.quotes{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quotes-author{
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+.quotes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:780px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.call-to-action{
+    background-color: #3882F6;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display:flex;
+    gap:1em; /*gap between nav links*/
+
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+a:hover{
+    color:#e5e7eb96;
+}
+
+p{
+    padding:0;
+    margin:0;
+}
