@@ -1,0 +1,35 @@
+To Do:
+
+Nabvar: 
+    -Make navbar independent from header 
+    -When screen is minimised too much 
+        - switch to menu icon?
+        - make links stack
+        - make links go to different page sections  
+
+Logo:
+    -when screen is minimised too much:
+        - keep logo on screen 
+            - currently, is moved off screen 
+
+
+
+Header:
+    -when screen is minimised too much:
+        -make photo disappear and keep text 
+
+
+information:
+    -when screen is minimised too much:
+        - stack so pictures are in a column 
+        - expand height of section 
+
+Quotes:
+    Apparently works 
+
+
+Call to action:
+    -When screen is minimised too much, currently padding looks weird 
+
+footer:
+    apparently works
