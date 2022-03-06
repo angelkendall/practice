@@ -1,1 +1,112 @@
+html, body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
 
+/*
+COLOURS
+
+USAFA Blue #26547c
+Paradise Pink #ef476f
+Orange yellow Crayola #ffd166
+Caribbean Green #06d6a0
+Baby Powder #fffcf9
+*/
+
+
+.header{
+    background-color: #ffd166;
+    color: #26547c;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display: flex;
+}
+
+.header-container-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.header-container-left{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2{
+    padding:0;
+    margin:0;
+}
+
+
+.main{
+    background-color: aqua;
+    color:#26547c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cards{
+    display: flex;
+}
+.duckpictures{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #06d6a0;
+}
+
+.quotes{
+    background-color: #ef476f;
+    color: #26547c;
+}
+.quotes-author{
+    font-weight: bold;
+}
+
+
+.action{
+    background-color: #06d6a0;
+    color: #26547c;
+}
+
+button{
+    background-color: #06d6a0;
+    color: #26547c;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 5em;
+}
+
+.footer{
+    background-color:#ffd166;
+    color: #26547c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    gap: 1em;
+}
