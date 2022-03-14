@@ -27,6 +27,10 @@ body {
     background-color:#f7fff7;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -43,8 +47,7 @@ h1,h2 {
     display: flex;
     flex-direction: column;
 
-    padding-top: 10px;
-    padding-bottom: 50px;
+    flex: 1;
 }
 
 .header-text {
@@ -67,18 +70,16 @@ h1,h2 {
     display: flex;
     flex-direction: column;
 
-    max-width: 500px;
 }
 
 .header-container-right {
     display: flex;
 
-    max-width: 500px;
+
 }
 
 .headerduckpicture{
     max-width: 500px;
-    max-height: auto;
 }
 
 
@@ -92,6 +93,8 @@ h1,h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    flex: 1;  /*uses any available space*/
 }
 
 .main-cards {
@@ -113,7 +116,18 @@ h1,h2 {
 }
 
 
+.quotes{
+    display: flex;
+    flex: 1;
+}
 
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
 
 
 .footer {
